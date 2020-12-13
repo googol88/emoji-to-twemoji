@@ -1,0 +1,28 @@
+<!--WIP: Under Construction!-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Emoji to Twemoji</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="header">Emoji to Twemoji</h1>
+      <div class="card fixed block" >
+        <div class="search-block">
+          <div class="fixed wrapper block">
+            <input type="text" id="emojiInput" value="🤯" placeholder="Enter emoji...">
+          </div>
+          <button class="accent block" onClick="getEmoji()">Twemoji-fy!</button>
+        </div>
+      </div>
+      <div class="fixed block">
+        <p id="result" align="center">Click Twemoji-fy to see results!</p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
